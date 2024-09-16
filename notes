@@ -1,0 +1,80 @@
+
+    // Data types or primitive types =>
+
+    // String : String 
+    // Number : Number 
+    // boolean : boolean 
+    // undefined :undefined 
+    // null :object
+
+    // Data Types for nonprimitive types
+    // function : function object 
+    // object : object
+    // array : object
+
+    // Data storage 
+    // primitive : Stack (copy of the data will be provided to you)
+    // nonprimitive : heap (referce of the data will be provided to you )
+
+
+    // ARRAYS=>
+
+    // array.pop() deletes the last element in the array 
+    // array.shift() deletes the first element in the array
+    // array.unshift() adds element in the first of array
+    // array.flat() converts array within array to one array
+    // array.concat() pushes the array to the array which returns a new array with a single array 
+    // array.push() adds the array to the array 
+    // spreadoperator : [...arr1,...arr2] : returns a single array 
+    // a.slice(2,4) : dosent include 4 
+    // a.splice(3,4) : includes 4 in the range , also splice takes out the range completely from the original array
+
+    // String => 
+    // let a = "hello"
+    // a.replace("he","" )
+    // a.includes("he")
+
+//         let users = [
+//     { name: "John", email: "john@example.com" },
+//     { name: "awesome", email: "awesome@example.com" },
+
+
+
+// ]
+// to access name,email of any object in an array 
+// console.log(users[0].name)
+
+// console.log(users[1].email)
+
+    Object ==>
+
+    const object= {} => this is non singleton object 
+    const singletonobject= new object() => this is singleton object
+    
+    
+    Global object in browser is WINDOW ,
+
+    explicit return arrow function = (num1,num2)=>{ return num1+num2}
+    implicit retrun arrow function = (num1,num2)=>(num1+num2)
+
+    iife : it is invoked imediately , it is used to avoid global scope pollution
+
+	=== , checks datatype too , === is called strict equal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
